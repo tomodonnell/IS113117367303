@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
+        
         <title>Select Product</title>
         
         <!--jQuery-->
@@ -10,8 +12,35 @@
     </head>
     
     <body>
+       
+       <!--Inserting a Navigation bar -->
+<nav>
+    <ul>
+     <li><a href="../homepage.html">Home</a></li>
+     <li><a href="../cv/cv_page1.html">Curriculum Vitae</a>
+    <ul>
+     <li><a href="../cv/cv_page1.html">Personal Details</a></li>
+     <li><a href="../cv/cv_page2.html">Education</a></li>
+     <li><a href="../cv/cv_page3.html">Work Experience</a></li>
+   
+    </ul>
+     </li>
+     <li><a href="../interest.html">Interests</a>
+    <ul>
+     <li><a href="../interests/sports.html">Sport</a></li>
+     <li><a href="../interests/travel.html">Traveling</a></li>
+   
+    </ul>
+     </li>
+     <li><a href="../ebusiness/Ebus1.php">eBusiness Shop</a>
+     </li>
+     <li><a href="../homepage.html">Cloud Service</a></li>
+    </ul>
+</nav>
         
-            <h4>Select a Product</h4>
+        <DIV style="position: absolute; top:80px; left:80px;">
+          <h4>Select a Product</h4>
+          
             
             <br/>
             
@@ -53,6 +82,7 @@
             <br/>
             <button onClick="calcSub()">Calculate Cost</button>
             <a role="button" href="Ebus1.php">Clear Choice</a>
+        </DIV>
     
     </body>
 </html>
