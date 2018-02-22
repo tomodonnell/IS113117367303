@@ -1,8 +1,6 @@
-
-
 nav{
 
-    position: fixed;
+    position: absolute;
 
     width: 100%;
 
@@ -54,7 +52,7 @@ nav ul li:hover{
 
 nav ul ul{
 
-    position: fixed;
+    position: absolute;
 
     background: #220;
 
