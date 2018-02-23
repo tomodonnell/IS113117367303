@@ -9,58 +9,40 @@
     <body>
         
         <!--Inserting a Navigation bar -->
-<nav>
-    <ul>
-     <li><a href="../homepage.html">Home</a></li>
-     <li><a href="../cv/cv_page1.html">Curriculum Vitae</a>
-    <ul>
-     <li><a href="../cv/cv_page1.html">Personal Details</a></li>
-     <li><a href="../cv/cv_page2.html">Education</a></li>
-     <li><a href="../cv/cv_page3.html">Work Experience</a></li>
-   
-    </ul>
-     </li>
-     <li><a href="../interest.html">Interests</a>
-    <ul>
-     <li><a href="../interests/sports.html">Sport</a></li>
-     <li><a href="../interests/travel.html">Traveling</a></li>
-   
-    </ul>
-     </li>
-     <li><a href="../ebusiness/Ebus1.php">eBusiness Shop</a>
-     </li>
-     <li><a href="../homepage.html">Cloud Service</a></li>
-    </ul>
-</nav>
+            <nav>
+                <ul>
+                 <li><a href="../homepage.html">Home</a></li>
+                 <li><a href="../cv/cv_page1.html">Curriculum Vitae</a>
+                <ul>
+                 <li><a href="../cv/cv_page1.html">Personal Details</a></li>
+                 <li><a href="../cv/cv_page2.html">Education</a></li>
+                 <li><a href="../cv/cv_page3.html">Work Experience</a></li>
+               
+                </ul>
+                 </li>
+                 <li><a href="../interest.html">Interests</a>
+                <ul>
+                 <li><a href="../interests/sports.html">Sport</a></li>
+                 <li><a href="../interests/travel.html">Traveling</a></li>
+               
+                </ul>
+                 </li>
+                 <li><a href="../ebusiness/Ebus1.php">eBusiness Shop</a>
+                 </li>
+                 <li><a href="../homepage.html">Cloud Service</a></li>
+                </ul>
+            </nav>
         
-<!-- Slide Show -->
-<section>
-  <img class="mySlides" src="https://uccexpress.ie/wp-content/uploads/2016/11/the-kingsley-hotel-near-ucc.jpg"
-  style="width:100%">
-  <img class="mySlides" src="http://www.census.nationalarchives.ie/exhibition/cork/government_politics_institutions/medium/LROY_07220_ColmansCollege_Fermoy.jpg"
-  style="width:100%">
-  <img class="mySlides" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Fermoy_Weir.JPG/1200px-Fermoy_Weir.JPG"
-  style="width:100%">
-</section>
-        
-    <script>
-// Automatic Slideshow - change image every 3 seconds
-var myIndex = 0;
-carousel();
+        <div class="pic1">
+            <img src="https://uccexpress.ie/wp-content/uploads/2016/11/the-kingsley-hotel-near-ucc.jpg">
+        </div>
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
-    x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 3000);
-}
-</script>
-
-
+        <div class="pic2">
+            <img src="http://www.census.nationalarchives.ie/exhibition/cork/government_politics_institutions/medium/LROY_07220_ColmansCollege_Fermoy.jpg">
+       </div>
+       
+       <div class="pic3">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Fermoy_Weir.JPG/1200px-Fermoy_Weir.JPG">
+       </div>
     </body>
 </html>

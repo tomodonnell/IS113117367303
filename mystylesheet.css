@@ -1,3 +1,8 @@
+html,body{
+    height:100%;
+    width:100%;
+}
+
 nav{
 
     position: absolute;
@@ -11,7 +16,8 @@ nav{
     text-align: center;
 
     opacity: 0.6;
-
+    
+    z-index: 2;
 }
 
 nav ul{
@@ -76,4 +82,56 @@ nav ul li:hover > ul{
 
     display: block;
 
+}
+
+.pic1{
+    position: absolute;
+    height:100%;
+    width:100%;
+    
+}
+
+.pic2{
+    position: absolute;
+    height:100%;
+    width:100%;
+    animation: heloo 5.5s 5.5s ease-out forwards;  
+}
+
+.pic3{
+    position: absolute;
+    height:100%;
+    width:100%;
+    animation:move 5.5s ease-out forwards;
+}
+
+.pic1 img{
+    width:100%;
+    height:100%;
+}
+
+.pic2 img{
+    width:100%;
+    height:100%;
+}
+
+.pic3 img{
+    width:100%;
+    height:100%;
+}
+
+@keyframes move{
+    
+    0%{left:0%; width:100%;}
+    50%{  width:100%}
+    80%{width:100%}
+    100%{left:110%;width:0%}
+}
+
+@keyframes heloo{
+    
+    0%{left:0%; width:100%;}
+    50%{  width:100%}
+    80%{width:100%}
+    100%{left:110%;width:0%}
 }
