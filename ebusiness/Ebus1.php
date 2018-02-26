@@ -29,16 +29,16 @@
     <ul>
      <li><a href="../interests/sports.html">Sport</a></li>
      <li><a href="../interests/travel.html">Traveling</a></li>
-   
+     <li><a href="../interests/cloud.html">Cloud Computing</a></li>
     </ul>
-     </li>
-     <li><a href="../ebusiness/Ebus1.php">eBusiness Shop</a>
-     </li>
      <li><a href="../homepage.html">Cloud Service</a></li>
     </ul>
 </nav>
         
-        <div style="position: absolute; top:80px; left:80px;">
+        
+        <div style="position: absolute; 
+                    top:80px; 
+                    text-align:center;">
           <h4>Select a Product</h4>
           
             
@@ -109,6 +109,6 @@
             <br>
             <a role="button" href="Ebus1.php">Clear Choice</a>
         </div>
-    
+       
     </body>
 </html>

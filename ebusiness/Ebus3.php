@@ -26,11 +26,8 @@ session_start();
     <ul>
      <li><a href="../interests/sports.html">Sport</a></li>
      <li><a href="../interests/travel.html">Traveling</a></li>
-   
+     <li><a href="../interests/cloud.html">Cloud Computing</a></li>
     </ul>
-     </li>
-     <li><a href="../ebusiness/Ebus1.php">eBusiness Shop</a>
-     </li>
      <li><a href="../homepage.html">Cloud Service</a></li>
     </ul>
 </nav>
