@@ -1,0 +1,42 @@
+div {
+    height: 200px;
+    width: 600px;
+
+    position: absolute;
+    top: 30%;
+    left: 44%;
+    margin-top: -100px;
+    margin-left: -200px;
+    text-align: justify;
+}
+
+h1 {
+    font-family: Courier, Monaco, monospace;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    font-family: Courier, Monaco, monospace;
+}
+
+h3 {
+    font-family: Courier, Monaco, monospace;
+    text-align: center;
+}
+
+a {
+    text-align: center;
+}
+
+.center {
+    height: 200px;
+    width: 600px;
+
+    position: absolute;
+    top: 30%;
+    left: 44%;
+    margin-top: -100px;
+    margin-left: -200px;
+    text-align: center;
+}

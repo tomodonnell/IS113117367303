@@ -1,19 +1,19 @@
-#section1{
-    background-color: white;
+h1 {
+    font-family: Courier, Monaco, monospace;
+    text-decoration: underline;
+    text-align: center
 }
 
-#section2{
-    background-color: rgb(44, 62, 80);
-}
-
-#section3{
-    background-color: rgb(51, 153, 204);
-}
-
-.section{
+p {
+    font-family: Courier, Monaco, monospace;
     text-align: center;
-    color: white;
-    height: 100vh;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
+h5 {
+    font-family: Courier, Monaco, monospace;
+    text-align: center
+}
 
+/*http://simpleicon.com/wp-content/uploads/cloud-10.png
