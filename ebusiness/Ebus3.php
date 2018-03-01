@@ -11,28 +11,17 @@ session_start();
     <body>
         
         <!--Inserting a Navigation bar -->
-<nav>
-    <ul>
-     <li><a href="../homepage.html">Home</a></li>
-     <li><a href="../cv/cv_page1.html">Curriculum Vitae</a>
-    <ul>
-     <li><a href="../cv/cv_page1.html">Personal Details</a></li>
-     <li><a href="../cv/cv_page2.html">Education</a></li>
-     <li><a href="../cv/cv_page3.html">Work Experience</a></li>
-   
-    </ul>
-     </li>
-     <li><a href="../interest.html">Interests</a>
-    <ul>
-     <li><a href="../interests/sports.html">Sport</a></li>
-     <li><a href="../interests/travel.html">Traveling</a></li>
-     <li><a href="../interests/cloud.html">Cloud Computing</a></li>
-    </ul>
-     <li><a href="../homepage.html">Cloud Service</a></li>
-    </ul>
-</nav>
+            <nav>
+                <ul>
+                 <li><a href="../homepage.html">Home</a></li>
+                 <li><a href="About_Us.html">About Us</a></li>
+                 <li><a href="About_Cloud.html">About Cloud</a>
+                 <li><a href="../ebusiness/Ebus1.php">Shop for Cloud Products</a></li>
+                 <li><a href="Contact_Us.html">Contact Us</a></li>
+                </ul>
+            </nav>
 
-<DIV style="position: absolute; top:80px; left:80px;">
+<div>
         <h4>RECEIPT</h4>
                 
         <?php
@@ -54,7 +43,7 @@ session_start();
         
         <br>
     
-</DIV>        
+</div>        
     </body>
     
 </html>
