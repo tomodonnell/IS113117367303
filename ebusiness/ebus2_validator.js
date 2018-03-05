@@ -1,6 +1,41 @@
 /* global $ */
 
-function validateDetails(){
+function validateName(){
+    
+    var name;
+    
+    name = document.getElementById("user_name").value;
+
+    if (name == ""){
+        alert("Please enter a name.");
+    }
+    else if (!name.match(/^[a-zA-Z]+$/ && /^[a-zA-Z]+$/)){
+        alert('Only letters are allowed in a name.');
+    }
+    else{
+        validateEmail();
+    }
+
+}
+
+function validateEmail(){
+    
+    var email;
+    
+    email = document.getElementById("user_email").value;
+    
+    if (email == ""){
+        alert("please enter an email.")
+    }
+    else if (validateInputEmail(email) == false){
+        alert("Please enter a valid Email ID");
+    }
+    else{
+        validatePin();
+    }
+}
+
+function validatePin(){
     
 var pin;
     
@@ -13,42 +48,7 @@ var pin;
         alert("Your PIN must be 4 digits.");
     }
     else{
-        validateName();
-    }
-}
-
-function validateName(){
-    
-    var name;
-    
-    name = document.getElementById("user_name").value;
-
-    if (name == ""){
-        alert("Please enter a name.");
-    }
-    else if (!name.match(/^[a-zA-Z]+$/)){
-        alert('Only letters are allowed in a name.');
-    }
-    else{
-    validateEmail();
-    }
-
-}
-
-function validateEmail(){
-    
-    var email;
-    
-    email = document.getElementById("user_email").value;
-    
-    if (email == ""){
-        alert("please enter an email.");
-    }
-    else if (validateInputEmail(email) == false){
-        alert("Please enter a valid Email ID");
-    }
-    else{
-        enablebtnPurchase();
+        enablebtnPurchase()
     }
 }
 

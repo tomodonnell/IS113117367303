@@ -1,15 +1,22 @@
 <?php
-session_start();
+// Start the session
+session_start()
 ?>
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
-    
-        <title>RECEIPT</title>
-    </head>
-    <body>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
+        <title>Receipt</title>
+        
+        <!--Stylesheets -->
+        <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
+        <link rel="stylesheet" href="ebus.css" type="text/css"/>
+        
+    </head>
+    
+    <body>
         <!--Inserting a Navigation bar -->
             <nav>
                 <ul>
@@ -20,30 +27,36 @@ session_start();
                  <li><a href="Contact_Us.html">Contact Us</a></li>
                 </ul>
             </nav>
-
-<div>
-        <h4>RECEIPT</h4>
                 
-        <?php
-        // Echo session variables that were set on previous page
-        echo "Total Paid: " . $_SESSION["total"] . ".";
+        <div class="ebusshop">
+        <h2 class="ebus3_heading">Purchase Receipt</h2>
+        
+        <?php  
+        // Set session variables
+          $_SESSION["user_name"] = $_POST["user_name"];
+          $_SESSION["user_email"] = $_POST["user_email"];
         ?>
         
-        <br>
+        <p class="ebus3_name">
+            <?php
+            // Echo session variables that were set on the previous pages
+            echo "Name: " . $_SESSION["user_name"] . ".";
+            ?>
+        </p>
         
-        <?php
-         echo "Name: " . $_SESSION["user_name"] . ".";
-        ?>
+        <p class="ebus3_email">
+            <?php
+            // Echo session variables that were set on the previous pages
+            echo "Email: " . $_SESSION["user_email"] . ".";
+            ?>
+        </p>
         
-        <br>
-        
-        <?php
-         echo "Email: " . $_SESSION["user_email"] . ".";
-        ?>
-        
-        <br>
-    
-</div>        
+        <p class="ebus3_total">
+            <?php
+            // Echo session variables that were set on the previous pages
+            echo "Total: " . $_SESSION["total"] . ".";
+            ?>
+        </p>
+    </div>
     </body>
-    
 </html>
