@@ -28,3 +28,27 @@ h3 {
 a {
     text-align: center;
 }
+
+.button {
+    border: none;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+
+.button1 {
+    border-radius: 12px;
+    background-color: #4CAF50; 
+}
+
+.button2 {
+    border-radius: 12px;
+    background-color: #555555; 
+}
+

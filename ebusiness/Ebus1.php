@@ -79,6 +79,8 @@
             <label for="discount" class="label6">
               Discount @ 5% &nbsp;&nbsp;&nbsp; 
               <input type="text" id="discount" name="discount" value="0.00" readonly/>
+              <br>
+              (-Discount)
             </label>
                 
             <br>
@@ -87,6 +89,8 @@
             <label for="vat" class="label7">
               VAT @ 10% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input type="text" id="vat" name="vat" value="0.00" readonly/>
+              <br>
+              (-Discount, +VAT)
             </label>
                 
             <br>
@@ -100,17 +104,18 @@
       
             <br>
             
-            <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
-            <br>      
+            <button class="button button1" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+            <br>
+            <br>
           </form>
             
           <!-- button for calculating price breakdown of the selected option -->    
-          <button class="cal_btn" onClick="calcSub()">Calculate Cost</button>
+          <button class="button button3" onClick="calcSub()">Calculate Cost</button>
              
           <br>
           <br>  
           <!-- button for clearing the selected options -->    
-          <a class="clear_btn" role="button" href="Ebus1.php">Clear Choice</a>
+          <a class="button button 2" role="button" href="Ebus1.php">Clear Choice</a>
       </div>
     </body>
 </html>

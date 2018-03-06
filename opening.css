@@ -40,3 +40,10 @@ body, html {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+h1 {
+    font-family: Courier, Monaco, monospace;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+}
