@@ -10,7 +10,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
         
-        <!--Stylesheets -->
+        <!--Implementing external css -->
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
         <link rel="stylesheet" href="ebus.css" type="text/css"/>
         
@@ -34,7 +34,7 @@
               
           <form method="POST" action="Ebus2.php">
             
-            <!-- Display radio buttons for cloud service options -->
+            <!-- Creating radio buttons for cloud service products-->
             <label for="salesforce" class="label1">
               <input type="radio" id="salesforce" name="product" checked onClick="rbChecked()"/>
               SalesForce @ $100
@@ -67,7 +67,7 @@
             <br>
             <br>
             
-            <!-- Breakdown of the price for the selected option -->
+            <!-- Showing price of products taking discount and vat into account -->
             <label for="subtotal" class="label5">
               Sub Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
@@ -104,17 +104,18 @@
       
             <br>
             
+            <!-- Inserting button to add product to cart -->
             <button class="button button1" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             <br>
             <br>
           </form>
             
-          <!-- button for calculating price breakdown of the selected option -->    
+          <!-- Inserting button to calculate cost of product -->    
           <button class="button button3" onClick="calcSub()">Calculate Cost</button>
              
           <br>
           <br>  
-          <!-- button for clearing the selected options -->    
+          <!-- Inserting button to clear all fields -->    
           <a class="button button 2" role="button" href="Ebus1.php">Clear Choice</a>
       </div>
     </body>

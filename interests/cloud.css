@@ -1,9 +1,11 @@
+/* Style for h1 */
 h1 {
     font-family: Courier, Monaco, monospace;
     text-decoration: underline;
     text-align: center
 }
 
+/* Style for paragraphs */
 p {
     font-family: Courier, Monaco, monospace;
     text-align: center;
@@ -11,6 +13,7 @@ p {
     padding-right: 40px;
 }
 
+/* Style for h5 */
 h5 {
     font-family: Courier, Monaco, monospace;
     text-align: center

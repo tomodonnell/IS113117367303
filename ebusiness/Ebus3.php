@@ -10,7 +10,7 @@ session_start()
         
         <title>Receipt</title>
         
-        <!--Stylesheets -->
+        <!--Implementing external css-->
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
         <link rel="stylesheet" href="ebus.css" type="text/css"/>
         

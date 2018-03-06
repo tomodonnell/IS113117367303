@@ -1,3 +1,4 @@
+/* Styling Nav Bar */
 nav{
 
     position: absolute;
@@ -52,7 +53,7 @@ nav ul li:hover{
 }
 
 
-
+/* Setting image size */
 .pic1{
     position: absolute;
     height:100%;

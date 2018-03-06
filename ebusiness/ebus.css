@@ -1,3 +1,4 @@
+/* Positioning text */
 div {
     height: 200px;
     width: 600px;
@@ -10,29 +11,30 @@ div {
     text-align: justify;
 }
 
+/* Styling h1 */
 h1 {
     font-family: Courier, Monaco, monospace;
     text-align: center;
     text-decoration: underline;
 }
 
+/* Styling paragraph */
 p {
     font-family: Courier, Monaco, monospace;
 }
 
+/* Styling h3 */
 h3 {
     font-family: Courier, Monaco, monospace;
     text-align: center;
 }
 
+/* Styling h2 */
 h2 {
     font-family: Courier, Monaco, monospace;
 }
 
-a {
-    text-align: center;
-}
-
+/* Positioning content */
 .center {
     height: 200px;
     width: 600px;
@@ -54,11 +56,12 @@ a {
     
 }
 
+/* Styling buttons */
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;

@@ -14,7 +14,7 @@ session_start()
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus2_validator.js"></script>
         
-        <!--Stylesheets -->
+        <!--Implementing external css -->
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
         <link rel="stylesheet" href="ebus.css" type="text/css"/>
         
@@ -32,6 +32,7 @@ session_start()
                  <li><a href="Contact_Us.html">Contact Us</a></li>
                 </ul>
             </nav>
+            <!-- Creating a form so customer will fill in required details, form is validated -->
      <div class="ebusshop">   
         <h2 class="ebus2_heading">Please enter your payment details</h2>
         
@@ -61,11 +62,13 @@ session_start()
             <br>
             <br>
             
+            <!-- Inserting button to purchase product-->
             <button class="button button1" type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
         </form>
         
         <br>
         
+            <!-- Inserting button to validate customer information-->
         <button class="button button4" onClick="validateName()">Validate</button>
     
         <?php  

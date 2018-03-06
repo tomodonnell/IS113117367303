@@ -1,3 +1,4 @@
+/* Positioning text */
 div {
     height: 200px;
     width: 600px;
@@ -10,25 +11,25 @@ div {
     text-align: justify;
 }
 
+/* Style for h1 */
 h1 {
     font-family: Courier, Monaco, monospace;
     text-align: center;
     text-decoration: underline;
 }
 
+/* Style for paragraph */
 p {
     font-family: Courier, Monaco, monospace;
 }
 
+/* Style for h3 */
 h3 {
     font-family: Courier, Monaco, monospace;
     text-align: center;
 }
 
-a {
-    text-align: center;
-}
-
+/* Style for buttons */
 .button {
     border: none;
     color: white;
@@ -36,7 +37,7 @@ a {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
     

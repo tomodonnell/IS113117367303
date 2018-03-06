@@ -1,3 +1,4 @@
+/* Positioning text */
 div {
     height: 200px;
     width: 600px;
@@ -9,11 +10,13 @@ div {
     margin-left: -200px;
 }
 
+/* Style for h1 */
 h1 {
     font-family: Courier, Monaco, monospace;
     text-decoration: underline;
 }
 
+/* Style for paragraph */
 p {
     font-family: Courier, Monaco, monospace;
 }
