@@ -7,7 +7,7 @@ nav{
 
     background: black;
 
-    margin: -10px;
+    margin: 0px;
 
     text-align: center;
 
@@ -51,18 +51,6 @@ nav ul li:hover{
 
     background: #150;
 
-}
-
-
-/* Setting image size */
-.pic1{
-    position: absolute;
-    height:100%;
-    width:100%;
-}
-
-#vid {
-    border: 3px solid #ECECEC;
 }
 
 
