@@ -1,23 +1,20 @@
 /* Styling Nav Bar */
 nav{
 
-    position: absolute;
+    position: fixed;
 
     width: 100%;
 
     background: black;
 
-    margin: 0;
+    margin: -10px;
 
     text-align: center;
 
-    opacity: 0.6;
+    opacity: 1;
     
     z-index: 2;
     
-    margin-left: -1;
-    
-    margin-top: -1;
 }
 
 nav ul{
@@ -62,10 +59,11 @@ nav ul li:hover{
     position: absolute;
     height:100%;
     width:100%;
-    margin-left: -1;
-    margin-top: -1;
-    
+    margin: -10px;
 }
 
+#vid {
+    border: 3px solid #ECECEC;
+}
 
 
