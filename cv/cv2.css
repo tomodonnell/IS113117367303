@@ -1,0 +1,24 @@
+/* Style for cv page 1 */
+/* Positioning text */
+div {
+    height: 200px;
+    width: 400px;
+
+    position: absolute;
+    top: 30%;
+    left: 52%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+/* Style for h1 */
+h1 {
+    font-family: Courier, Monaco, monospace;
+    text-decoration: underline;
+}
+
+/* Style for paragraph */
+p {
+    font-family: Courier, Monaco, monospace;
+    text-align: justify
+}
