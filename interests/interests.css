@@ -21,6 +21,7 @@ h1 {
 /* Style for paragraph */
 p {
     font-family: Courier, Monaco, monospace;
+    
 }
 
 /* Style for h3 */
@@ -53,3 +54,21 @@ h3 {
     background-color: #555555; 
 }
 
+/* Styling page pile sections */
+#section1{
+    background-color: rgb(238, 0, 90);
+}
+
+#section2{
+    background-color: rgb(44, 62, 80);
+}
+
+#section3{
+    background-color: rgb(51, 153, 204);
+}
+
+.section{
+    text-align: center;
+    color: white;
+    height: 100vh;
+}

@@ -1,6 +1,7 @@
 /* Styling page pile sections */
 #section1{
     background-color: rgb(238, 0, 90);
+    
 }
 
 #section2{
@@ -9,6 +10,24 @@
 
 #section3{
     background-color: rgb(51, 153, 204);
+}
+
+#section4{
+    background-color: rgb(238, 0, 90);
+    background-image: url(../pictures/cloud_page1.png);
+    background-size: 228px 215px
+}
+
+#section5{
+    background-color: rgb(44, 62, 80);
+    background-image: url(../pictures/cloud_page2.png);
+    background-size: 228px 221px
+}
+
+#section6{
+    background-color: rgb(51, 153, 204);
+    background-image: url(../pictures/cloud_page3.png);
+    background-size: 1360px 780px
 }
 
 .section{
