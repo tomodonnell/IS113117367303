@@ -1,0 +1,68 @@
+/* Styling Nav Bar */
+nav{
+
+    position: fixed;
+
+    width: 100%;
+
+    background: black;
+
+    margin: -10px;
+
+    text-align: center;
+
+    opacity: 1;
+    
+    z-index: 2;
+    
+}
+
+nav ul{
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+nav ul li{
+
+    display: inline-block;
+
+    padding: 24px;
+
+    cursor: pointer;
+    
+}
+
+nav ul li a{
+
+    text-decoration: none;
+
+    color: white;
+
+    display: block;
+
+}
+
+nav ul li:hover{
+
+    background: #150;
+
+}
+
+
+/* Setting image size */
+.pic1{
+    position: absolute;
+    height:100%;
+    width:100%;
+}
+
+#vid {
+    border: 3px solid #ECECEC;
+}
+
+
