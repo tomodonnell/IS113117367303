@@ -57,6 +57,8 @@ session_start()
             echo "Total: " . $_SESSION["total"] . ".";
             ?>
         </p>
+        <br>
+        <p>Thank you for your purchase.</p>
     </div>
     </body>
 </html>
